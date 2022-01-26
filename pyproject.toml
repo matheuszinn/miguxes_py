@@ -1,11 +1,17 @@
 [tool.poetry]
 name = "miguxespy"
-version = "1.0.0"
+version = "1.0.2"
 description = "Modulo que traduz português para miguxês e suas variações (arcaico, moderno e NEO-miguxês). Inspirado no projeto de Aurelio Jargas, que pode ser encontrado em: https://aurelio.net/coisinha/miguxeitor"
 authors = ["Matheus Alves <theustloz@gmail.com>"]
+readme = "README.md"
+keywords = ["emo", "miguxes", "RegEx"]
+
+packages = [
+    {include = "miguxes_py"}
+]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 
