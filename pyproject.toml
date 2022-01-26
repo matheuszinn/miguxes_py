@@ -5,6 +5,8 @@ description = "Modulo que traduz português para miguxês e suas variações (ar
 authors = ["Matheus Alves <theustloz@gmail.com>"]
 readme = "README.md"
 keywords = ["emo", "miguxes", "RegEx"]
+repository="https://github.com/matheuszinn/miguxes_py"
+homepage="https://github.com/matheuszinn/miguxes_py"
 
 packages = [
     {include = "miguxes_py"}
