@@ -233,6 +233,21 @@ class DialetoMiguxes(Enum):
 
     @classmethod
     def pegar_regex_por_dialeto(cls, dialeto: 'DialetoMiguxes') -> List[Tuple[str, str]]:
+
+        """
+        Seleciona a lista de RegEx relativa ao dialeto de miguxês
+
+        Parameters
+        ----------
+        dialeto: DialetoMiguxes
+            Um dialeto de miguxês
+        
+        Returns
+        -------
+        regex: List[Tuple[str, str]]
+
+        """
+
         if dialeto == DialetoMiguxes.NEO_MIGUXES:
             return cls.REGEX_NEO_MIGUXES.value
         elif dialeto == DialetoMiguxes.MIGUXES_ARCAICO:
